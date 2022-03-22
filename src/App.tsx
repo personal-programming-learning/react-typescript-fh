@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import { CounterRed } from "./components/CounterRed";
 import { TimerPater } from "./components/TimerPater";
 import { User } from "./components/User";
 
@@ -19,6 +20,11 @@ function App() {
       <hr />
 
       <TimerPater />
+      <hr />
+
+      <h2>useReducer</h2>
+      <CounterRed />
+      <hr />
     </>
   );
 }
